@@ -26,7 +26,7 @@ from pix2seq.tasks.visualization.vis_utils import draw_keypoints_on_image_array
 from pix2seq.tasks.visualization.vis_utils import draw_mask_on_image_array
 
 # Default model
-model_dir = Path(__file__).parents[1] / "coco_det_finetune" / "resnet_640x640"  # Restore checkpoint from local
+model_dir = Path(__file__).parents[1] / "coco_det_finetune" / "resnet_1024x1024"  # Restore checkpoint from local
 
 # Default CSV logbook
 logbook_path = Path(__file__).parents[1] / "logbook.csv"
