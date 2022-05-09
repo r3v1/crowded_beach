@@ -1,0 +1,13 @@
+numpy
+matplotlib
+gsutil
+streamlink
+opencv-python
+pandas
+
+# pix2seq
+tensorflow
+ml-collections
+tensorflow-datasets
+tensorflow-addons
+pycocotools
