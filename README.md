@@ -39,6 +39,16 @@ Example of counting people in Kontxa beach with a threshold of 0.5, saving frame
 $ python src/predict.py -b Kontxa -s -t 0.5 -d 15
 ```
 
+## Troubleshooting
+
+### ModuleNotFoundError: No module named 'pix2seq'
+
+Try adding to path modules `pix2seq` and `src` like:
+
+```shell
+export PYTHONPATH=.:pix2seq
+```
+
 # Similar projects
 
 - [Surfer Counter](https://surfercounter.com/)
