@@ -11,3 +11,4 @@ ml-collections
 tensorflow-datasets
 tensorflow-addons
 pycocotools
+Pillow==9.5.0
